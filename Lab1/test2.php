@@ -104,12 +104,12 @@ echo "Chuỗi có dấu ('$chuoi_co_dau') dùng mb_strlen(): " . mb_strlen($chuo
 // 6. Chuyển đổi chữ hoa và chữ thường
 // ==========================================
 echo "<h3>6. Chuyển đổi chữ hoa và chữ thường</h3>";
-$str_ goc = "Lập Trình Web 1 - PHP & MySQL";
+$str_goc = "Lập Trình Web 1 - PHP & MySQL";
 echo "Chuỗi gốc: $str_ goc<br>";
-echo "strtoupper(): " . strtoupper($str_ goc) . "<br>";
-echo "strtolower(): " . strtolower($str_ goc) . "<br>";
-echo "mb_strtoupper(): " . mb_strtoupper($str_ goc, 'UTF-8') . "<br>";
-echo "mb_strtolower(): " . mb_strtolower($str_ goc, 'UTF-8') . "<br>";
+echo "strtoupper(): " . strtoupper($str_goc) . "<br>";
+echo "strtolower(): " . strtolower($str_goc) . "<br>";
+echo "mb_strtoupper(): " . mb_strtoupper($str_goc, 'UTF-8') . "<br>";
+echo "mb_strtolower(): " . mb_strtolower($str_goc, 'UTF-8') . "<br>";
 
 /*
  * COMMENT (Sự khác nhau):
