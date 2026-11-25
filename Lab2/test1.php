@@ -27,28 +27,6 @@ $students = [
         "class" => "CNTT3"
     ],
 ];
-$falculties = [
-    "Công nghệ thông tin",
-    "Quản trị kinh doanh",
-    "Kế toán",
-    "Ngôn ngữ Anh",
-];
-$classes=[
-    "A1"=>"CNTT1",
-    "A2"=> "CNTT2",
-    "A3"=> "CNTT3",
-    "A4"=> "CNTT4",
-];
-$genders=[
-    "Nam","Nữ","Khác",
-];
-$hobbies=[
-    "LT"=>"Lập trình",
-    "DS"=> "Đọc sách",
-    "AN"=> "Âm nhạc",
-    "DL"=> "Du lịch",
-    "TT"=>"Thể thao",
-];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -211,9 +189,7 @@ $hobbies=[
             </tbody>
         </table>
     </section>
-    <section class=""s3>
-        
-    </section>
+
 </body>
 
 </html>
